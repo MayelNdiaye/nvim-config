@@ -1,3 +1,3 @@
 require("xrobotx")
 print("hello")
-vim.cmd('colorscheme embark')
+vim.cmd('colorscheme kanagawa')

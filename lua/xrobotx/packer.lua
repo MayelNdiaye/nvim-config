@@ -2,11 +2,11 @@
 
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
-
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   use 'shaunsingh/moonlight.nvim'
+  use "rebelot/kanagawa.nvim"
   use {
   "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
