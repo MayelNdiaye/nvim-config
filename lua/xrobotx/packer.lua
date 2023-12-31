@@ -4,6 +4,9 @@
 vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
+  use{"akinsho/toggleterm.nvim", tag='*', config = function()
+      require("toggleterm").setup()
+  end}
   use 'wbthomason/packer.nvim'
   use 'shaunsingh/moonlight.nvim'
   use "rebelot/kanagawa.nvim"
